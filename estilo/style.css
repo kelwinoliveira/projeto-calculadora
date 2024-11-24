@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    font:bold 15pt arial;
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: rgb(24, 51, 77);
+}
+section{
+    display: flex;
+    border-radius: 15px;
+    width: 360px;
+    height: 570px;
+    background-color: rgb(36, 35, 35);
+    margin:auto;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around; 
+    align-items: baseline;
+    padding: 10px;
+    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.548);
+}
+.res{
+    overflow: hidden;
+    padding-right: 10px;
+    font-size: 25pt;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin:  20px auto;
+    border-radius: 20px;
+    width: 335px;
+    height: 65px;
+    background-color: white;
+    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.548);
+}
+.n{
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    flex: 0 0;
+    border-radius: 35%;
+    background-color: white; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.548);
+    transition: background ,color .3s;
+}
+div.n:hover{
+    background-color:rgb(133, 132, 132);
+    color: white;
+    cursor: pointer;
+}
+input#num{
+    width: 390px;
+    border:none;
+    padding: 5px;
+    text-align: right;
+    font-size: 25pt;
+}
+
